@@ -13,5 +13,5 @@ type Animal struct {
 	firstSeenAt models.Address
 	isDesexed   bool
 	conditions  []models.Condition
-	picture     models.AnimalPicture
+	picture     models.Picture
 }
