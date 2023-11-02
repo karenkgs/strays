@@ -12,6 +12,7 @@ type Account struct {
 	lastName    string
 	phoneNumber models.PhoneNumber
 	isVet       bool
+	canVerifyAnimal bool
 	country     models.Country
 	state       string
 }
