@@ -11,9 +11,8 @@ type EventType string
 type Event struct {
 	id            uuid.UUID
 	aggregateType aggregates.AggregateType
-	aggregateID   uuid.UUID
-	position      int
 	eventType     EventType
+	position      int
 	Payload       interface{}
 	RecordedAt    time.Time
 }
