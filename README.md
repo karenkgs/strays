@@ -6,3 +6,4 @@ Vira-latas in Brazilian Portuguese. Collaborate with the community that takes ca
 ## Tech
 * Go-lang 
 * Event sourcing
+* [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
