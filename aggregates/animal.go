@@ -1,14 +1,13 @@
 package aggregates
 
 import (
-	"Users/karen/Developer/Personal/go/strays/eventsourcing"
 	"Users/karen/Developer/Personal/go/strays/models"
 	"github.com/google/uuid"
 	"time"
 )
 
 type Animal struct {
-	eventsourcing.Aggregate
+	Aggregate
 	accountID   uuid.UUID
 	createdAt   time.Time
 	firstSeenAt models.Address
